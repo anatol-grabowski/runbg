@@ -1,0 +1,37 @@
+{
+  "name": "runbg",
+  "version": "1.0.6",
+  "description": "A script to run nodejs modules in background (no window). Doesn't use daemons/services.",
+  "main": "index.js",
+  "bin": {
+    "runbg": "runbg.cmd",
+    "nodebg": "nodebg.cmd"
+  },
+  "os": [
+    "win32"
+  ],
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grabantot/runbg.git"
+  },
+  "keywords": [
+    "nodejs",
+    "background",
+    "hide",
+    "console",
+    "commandline",
+    "window",
+    "silent",
+    "run",
+    "start"
+  ],
+  "author": "grabantot",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/grabantot/runbg/issues"
+  },
+  "homepage": "https://github.com/grabantot/runbg#readme"
+}
